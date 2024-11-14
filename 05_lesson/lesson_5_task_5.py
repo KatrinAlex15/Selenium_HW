@@ -9,7 +9,7 @@ driver.maximize_window()
 
 driver.get("http://the-internet.herokuapp.com/inputs")
 
-input_field = driver.find_element(By.XPATH, "//input[@type='number]")
+input_field = driver.find_element(By.XPATH, "//input[@type='number']")
 
 input_field.send_keys("1000")
 sleep(3)

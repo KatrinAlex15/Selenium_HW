@@ -10,7 +10,7 @@ driver.maximize_window()
 driver.get("http://the-internet.herokuapp.com/add_remove_elements/")
 
 for i in range(5):
-    add_btn = driver.find_element(By.XPATH, '//button[text()="Add Element"]').click()
+    driver.find_element(By.XPATH, '//button[text()="Add Element"]').click()
 
 sleep(5)
 
