@@ -10,7 +10,7 @@ driver.maximize_window()
 driver.get("http://the-internet.herokuapp.com/entry_ad")
 sleep(5)
 
-close_btn = driver.find_element(By.XPATH, "//div[@class='modal-footer']//button")
+close_btn = driver.find_element(By.XPATH, "//p[normalize-space()='Close']")
 close_btn.click()
 
 sleep(5)
